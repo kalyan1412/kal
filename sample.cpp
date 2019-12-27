@@ -7,6 +7,9 @@ class Sample
   private:
   int height,width;
   public:
+    Sample()
+    {
+    }
   void set_height(int);
   void set_width(int);
   int get_height();
